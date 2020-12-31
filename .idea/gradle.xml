@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/Calculator with four methods" />
+            <option value="$PROJECT_DIR$/Problems/Countdown counter" />
+            <option value="$PROJECT_DIR$/Problems/Counting number of instances" />
+            <option value="$PROJECT_DIR$/Problems/Create a full name" />
+            <option value="$PROJECT_DIR$/Problems/Creating a set" />
+            <option value="$PROJECT_DIR$/Problems/Even numbers go first" />
+            <option value="$PROJECT_DIR$/Problems/Hip-Hop" />
+            <option value="$PROJECT_DIR$/Problems/Html Parser" />
+            <option value="$PROJECT_DIR$/Problems/Impement a default method" />
+            <option value="$PROJECT_DIR$/Problems/Multithreaded counter" />
+            <option value="$PROJECT_DIR$/Problems/No  J" />
+            <option value="$PROJECT_DIR$/Problems/Ordering the execution of threads" />
+            <option value="$PROJECT_DIR$/Problems/Output elements" />
+            <option value="$PROJECT_DIR$/Problems/Resolve a diamond problem" />
+            <option value="$PROJECT_DIR$/Problems/Reversed list" />
+            <option value="$PROJECT_DIR$/Problems/Spell checker" />
+            <option value="$PROJECT_DIR$/Problems/Sum of numbers in the range" />
+            <option value="$PROJECT_DIR$/Problems/Summing with threads" />
+            <option value="$PROJECT_DIR$/Problems/VeganPizza" />
+            <option value="$PROJECT_DIR$/Problems/Which brackets are balanced" />
+            <option value="$PROJECT_DIR$/Problems/Working with queue" />
+            <option value="$PROJECT_DIR$/Text Editor/task" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

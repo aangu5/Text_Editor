@@ -1,0 +1,151 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Main {
+        public static void main(String[] args) {
+            // put your code here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3658#comment
+status: Failed
+feedback:
+  message: "Failed test #1 of 8. Runtime error\n\nThis is a sample test from the problem\
+    \ statement!\n\nTest input:\n<html><a>hello</a><h1><h4>nestedHello</h4><h3>nestedWorld</h3><h6><br>top</br></h6></h1><br>world</br></html>\n\
+    Correct output:\nhello\nnestedHello\nnestedWorld\ntop\n<br>top</br>\n<h4>nestedHello</h4><h3>nestedWorld</h3><h6><br>top</br></h6>\n\
+    world\n<a>hello</a><h1><h4>nestedHello</h4><h3>nestedWorld</h3><h6><br>top</br></h6></h1><br>world</br>\n\
+    \nYour code output:\n\n\nError:\nException in thread \"main\" java.lang.StackOverflowError\n\
+    \tat java.base/java.util.regex.Pattern$CharPropertyGreedy.match(Pattern.java:4293)\n\
+    \tat java.base/java.util.regex.Pattern$GroupTail.match(Pattern.java:4850)\n\t\
+    at java.base/java.util.regex.Pattern$BmpCharProperty.match(Pattern.java:3951)\n\
+    \tat java.base/java.util.regex.Pattern$CharPropertyGreedy.match(Pattern.java:4293)\n\
+    \tat java.base/java.util.regex.Pattern$BmpCharProperty.match(Pattern.java:3951)\n\
+    \tat java.base/java.util.regex.Pattern$CharPropertyGreedy.match(Pattern.java:4293)\n\
+    \tat java.base/java.util.regex.Pattern$BmpCharProperty.match(Pattern.java:3951)\n\
+    \tat java.base/java.util.regex.Pattern$CharPropertyGreedy.match(Pattern.java:4293)\n\
+    \tat java.base/java.util.regex.Pattern$BmpCharProperty.match(Pattern.java:3951)\n\
+    \tat java.base/java.util.regex.Pattern$GroupHead.match(Pattern.java:4791)\n\t\
+    at java.base/java.util.regex.Pattern$CharPropertyGreedy.match(Pattern.java:4293)\n\
+    \tat java.base/java.util.regex.Matcher.match(Matcher.java:1756)\n\tat java.base/java.util.regex.Matcher.matches(Matcher.java:713)\n\
+    \tat java.base/java.util.regex.Pattern.matches(Pattern.java:1175)\n\tat java.base/java.lang.String.matches(String.java:2024)\n\
+    \tat Main.containsChild(Main.java:33)\n\tat Main.processChild(Main.java:45)\n\t\
+    at Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ Main.processChild(Main.java:46)\n\tat Main.processChild(Main.java:46)\n\tat\
+    \ M"
+  time: Wed, 30 Dec 2020 19:57:08 UTC
+record: -1

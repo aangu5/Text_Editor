@@ -1,0 +1,19 @@
+# Project exclude paths
+/.gradle/
+/Problems/Hip-Hop/out/
+/Problems/Hip-Hop/out/production/classes/
+/Problems/Html Parser/out/
+/Problems/Html Parser/out/production/classes/
+/Problems/No  J/out/
+/Problems/No  J/out/production/classes/
+/Problems/Reversed list/out/
+/Problems/Reversed list/out/production/classes/
+/Problems/Summing with threads/out/
+/Problems/Summing with threads/out/production/classes/
+/Problems/VeganPizza/out/
+/Problems/VeganPizza/out/production/classes/
+/Problems/Which brackets are balanced/out/
+/Problems/Which brackets are balanced/out/production/classes/
+/Text Editor/task/build/
+/Text Editor/task/out/
+/Text Editor/task/out/production/classes/
